@@ -16,6 +16,7 @@ public class Tracker {
     }
 
     public void remove(TimeEntry entry) {
+        // Triggering Build
         if (true)
             entries.remove(entry);
 
